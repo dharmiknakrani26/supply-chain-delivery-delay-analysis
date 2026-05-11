@@ -1,0 +1,17 @@
+# Large dataset files
+data/raw/
+data/cleaned/supply_chain_cleaned.csv
+
+# Tableau packaged workbook can be large
+*.twbx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+delivery_result,total_orders,total_sales,total_profit,avg_profit,avg_delay_days,profit_margin
+Late,36048,20125635.36,2140043.02,21.62,1.62,10.63
+On Time,29704,16657389.85,1826686.85,22.4,-0.71,10.97
