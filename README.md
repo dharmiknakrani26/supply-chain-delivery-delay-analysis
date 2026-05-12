@@ -90,6 +90,7 @@ The original dataset contained **180,519 rows and 53 columns**.
 After selecting useful columns, removing duplicates, creating new features, and validating data quality, the final cleaned dataset contains:
 
 |   Item         |  Value    |
+|----------------|-----------|
 | Cleaned Rows   | 180,511   |
 | Cleaned Columns|   25      |
 | Duplicate Rows |   0       |
@@ -107,6 +108,7 @@ data/cleaned/supply_chain_cleaned.csv
 ## Key Business Metrics
 
 |    Metric          | Value   |
+|--------------------|---------|
 | Total Orders       | 65,752  |
 | Late Orders        | 36,048  |
 | Late Delivery Rate | 54.82%  |
@@ -131,6 +133,7 @@ The company had a 54.82% late delivery rate, meaning more than half of all order
 Shipping mode analysis showed that delivery performance varies strongly by shipping method.
 
 | Shipping Mode | Late Delivery Rate |
+|---------------|--------------------|
 | First Class   |      95.27%        |
 | Second Class  |      76.72%        |
 | Same Day      |      46.15%        |
@@ -150,6 +153,7 @@ Regional analysis showed that some locations have higher delivery delay risk tha
 Top high-risk regions included:
 
 | Region         | Late Delivery Rate |
+|----------------|--------------------|
 | Central Africa |      57.55%        |
 | East Africa    |      56.77%        |
 | South of USA   |      55.99%        |
@@ -166,6 +170,7 @@ Delivery delays are not only caused by shipping method. Location also plays an i
 Profit analysis compared late orders with on-time orders.
 
 | Delivery Result | Total Orders | Total Profit | Avg Profit | Profit Margin |
+|-----------------|--------------|--------------|------------|---------------|
 | Late            | 36,048       | $2.14M       | $21.62     | 10.63%        |
 | On Time         | 29,704       | $1.83M       | $22.40     | 10.97%        |
 
@@ -204,6 +209,7 @@ Several of the highest-risk combinations involved **First Class shipping** acros
 Examples included:
 
 | Shipping Mode | Region          | Late Delivery Rate |
+|---------------|-----------------|--------------------|
 | First Class   | North Africa    | 96.77% |
 | First Class   | Southern Europe | 96.57% |
 | First Class   | South Asia      | 96.32% |
