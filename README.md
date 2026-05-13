@@ -210,10 +210,10 @@ Examples included:
 
 | Shipping Mode | Region          | Late Delivery Rate |
 |---------------|-----------------|--------------------|
-| First Class   | North Africa    | 96.77% |
-| First Class   | Southern Europe | 96.57% |
-| First Class   | South Asia      | 96.32% |
-| First Class   | West Asia       | 96.05% |
+| First Class   | North Africa    | 96.77%             |
+| First Class   | Southern Europe | 96.57%             |
+| First Class   | South Asia      | 96.32%             |
+| First Class   | West Asia       | 96.05%             |
 
 **Key Insight:**  
 First Class delivery delays are not limited to one region. The issue appears across multiple regions, which suggests a broader operational problem with First Class shipping.
